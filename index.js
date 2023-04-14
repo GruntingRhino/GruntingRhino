@@ -1,6 +1,8 @@
+
 function refreshTime() {
-  var datetime = new Date();
-  console.log(datetime);
-  document.getElementById("time").textContent = datetime;
+  const timeDisplay = document.getElementById("time");
+  const dateString = new Date().toLocaleString();
+  const formattedString = dateString.replace(", ", " - ");
+  timeDisplay.textContent = formattedString;
 }
-setInterval(refreshTime, 1000);
+setInterval(refreshTime, 1000); 
