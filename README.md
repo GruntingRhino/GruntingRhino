@@ -12,3 +12,9 @@ This isn't able to used to its full potential unless paired with the Personal As
   - M.A.R.V.I.N. Functions
   - Calendar
   - Display information about information recieved from M.A.R.V.I.N.
+
+- Aesthetics
+  - Background photos
+  - Images
+  - M.A.R.V.I.N. image that responds when wake work is said.
+
