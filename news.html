@@ -1,0 +1,167 @@
+<html>
+    <head style="background-color:33475b">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calendar</title>
+    <u><center><h1 id="title">Calendar</h1></center></u>
+    <br>
+    
+    <table class="text">
+        <tr class="calendar">
+            <th class="calendar">School</th>
+            <th class="calendar">Personal</th>
+        </tr>
+        <tr>
+            <td class="calendar">June 13 End of School</td>
+            <td class="calendar">May 31<br>Finish Mark 3</td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        #title {
+            font-family: 'Courier New', Courier, monospace;
+            font-size:x-large;
+            color: #f9f9f9;
+        }
+
+        .calendar {
+            border: 1px solid;
+            text-align: left;
+            padding: 8px;
+            
+        }
+
+        table {
+            border: 2px solid;
+            border-color: #f9f9f9;
+        }
+
+        .text {
+            position: fixed;
+            top: 50px;
+            left: 1050px;
+            float: right;
+            font-size: 20px;
+            font-family: 'Courier New'  , Courier, monospace;
+            color: grey;        }
+
+        body {
+            background-color: #333;
+            background-image: url("img/FlowerWallpaper.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        div.relative {
+            position: relative;
+            left: -10px;
+            top: -100px;
+            }
+
+        .c2{
+            position: fixed;
+            top: 50px;
+            left: 1000px;
+            font-size: x-large;
+        }
+
+        img {
+            max-width: 40%;
+            max-height: 40%;
+            float: left;
+        }
+
+        .navbar {
+            position: fixed;
+            background-color: #333;
+            overflow: visible;
+            left: 0px;
+            top: 0px
+            }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 30px;
+            text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            }
+
+        .dropdown .dropbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            }
+
+        #home {
+            height: 500px;
+            background-color: black;
+        }
+        
+    </style>
+    </head>
+    <body>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="gruntingrhino.github.io/news.html" target="_blank">Calendar</a>
+        <a href="gruntingrhino.github.io">Marvin Homepage</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a>
+            <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank">Google Drive</a>
+            <a href="https://discord.com/channels/@me/993157431699964044" target="_blank">Discord</a>
+            </div>
+        
+        </div>      
+        </div>
+    </body>
+</html>
